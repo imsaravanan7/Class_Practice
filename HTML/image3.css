@@ -1,0 +1,28 @@
+/* .color-aqua{
+    background-color: aqua;
+}
+.color-orange{
+    background-color: orange;
+}
+.color-red{
+    background-color: red;
+}
+.color-black,.bg-white{
+    color: violet;
+    background-color: orange; */
+/* } */
+ul{
+    list-style-type:circle;
+}
+.image{
+    float: right;
+}
+.image1{
+    float: left;
+}
+.image2{
+    float: right;
+}
+#c2{
+    clear: both;
+}

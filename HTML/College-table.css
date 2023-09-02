@@ -1,0 +1,37 @@
+p{
+    background-color:maroon;
+    height:100px;
+    text-align: center;
+    color: antiquewhite;
+}
+th{
+    width: 10%;
+}
+img{
+    width: 5%;
+}
+ol{
+    list-style: none;
+    width: 100%;
+}
+.image{
+    width: 100%;
+}
+div{
+    color: maroon;
+}
+.head21{
+    text-align: left;
+    display: inline-block;
+    width: 33%;
+}
+.head22{
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+.head23{
+    text-align: right;
+    display: inline-block;
+    width: 33%;
+}

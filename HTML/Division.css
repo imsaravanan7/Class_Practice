@@ -1,0 +1,15 @@
+.div{
+    width: 100%;
+    background-color:  rgb(181, 219, 236);
+}
+ul{
+    width: 100%;
+    display: inline;
+    list-style-type: none;
+    background-color: rgb(181, 219, 236);
+    color: rgb(59, 3, 3);  
+    font-family:'Gill Sans';
+}
+li{
+    display: inline;
+}
