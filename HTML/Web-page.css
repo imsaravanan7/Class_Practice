@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight: 100;
+}
+.h1{
+    text-align: center;
+    font-weight: bold;
+}
+.Head{
+    display: flex;
+    display: inline-block;
+}
+.div-1{
+    display: inline-block;
+    border: 200px;
+    border-color: rgb(92, 92, 255);
+    margin-left: 275px;
+    background-color: rgb(92, 92, 255);
+    width: 200px;
+    height: 250px;
+    float:left;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.img-1{
+   
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 95px;
+    display: flex;
+    margin-left: 50px;
+}
+.content-1{
+    color: antiquewhite;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.content-2{
+    color: antiquewhite;
+    font-size: 15px;
+    margin-left: 25px;
+    width:150px;
+    height: 200px;
+    margin-top: 10px;   
+}
+.div-2{
+    float:left;
+    border: 200px;
+    margin-left: 75px;
+    background-color: rgb(92, 92, 255);
+    width: 200px;
+    height: 250px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.div-3{
+    float: left;
+    width: 200px;
+    height: 250px;
+    background-color:  rgb(92, 92, 255);
+    margin-left: 75px;
+    border: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.div-4{
+    margin-top: 50px;
+    float: left;
+    margin-left: 275px;
+    background-color: rgb(92, 92, 255);
+    height: 250px;
+    border: 200px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.div-5{
+    margin-top: 50px;
+    float: left;
+    margin-left: 75px;
+    background-color: rgb(92, 92, 255);
+    height: 250px;
+    border: 200px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.div-6{
+    margin-top: 50px;
+    float: left;
+    margin-left: 75px;
+    background-color: rgb(92, 92, 255);
+    height: 250px;
+    border: 200px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
