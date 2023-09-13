@@ -1,0 +1,112 @@
+body{
+    font-family: sans-serif;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.cont-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+}
+.div-1{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    float: left;
+    margin-left: 100px;
+}
+.div-2{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    float: left;
+    margin-right: 100px;
+}
+.sign{
+    background-color:#4C5FD5;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.submit{
+    background-color: rgb(42, 42, 66);
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    background-color: #dadbf1;
+    height: 250px;
+}
+.header{
+    font-size: 45px;
+    display: flex;
+    justify-content:center ;
+    padding-top: 80px;
+    font-weight: bold;
+}
+.search{
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+}
+.cont-2{
+    display: flex;
+   justify-content: space-around;
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.para{
+    width: 80%;
+}
+
+li{
+    list-style: none;
+}
+.under-d{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 250px;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 70px;
+}
+.botm{
+    width: 20%;
+    margin-top: 150px;
+
+}
+

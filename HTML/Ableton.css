@@ -1,0 +1,154 @@
+body{
+    font-family: sans-serif;
+}
+.cont-1{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.div-1{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.div-2{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-left: 500px;
+}
+.div-3{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.img-1{
+    padding-left: 10%;
+    margin-top: 20px;
+    height: 100%;
+    width: 80%;
+}
+.cont-2{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
+h1{
+    line-height: 50px;
+}
+p{
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.bg-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 540px;
+    background-color: sandybrown;
+    width: 800px;
+    height: 700px;
+}
+.img-3{
+    position: absolute;
+    margin-right: 1000px;
+}
+.img-4{
+    margin-left: 250px;
+}
+.img-botm{
+    margin-left:250px;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+.bg-2{
+    height: 1200px;
+    width: 800px;
+    background-color: lightblue;
+}
+.img-5{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.img-6{
+    margin-left: 600px;
+    z-index: -1;
+}
+.img-7{
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+.cont-4{
+    display: flex;
+}
+.bg-3{
+    background-color: #d5b3ff;
+    height: 700px;
+    width: 800px;
+    margin-left: 300px;
+}
+.fix{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.img-8{
+    top:200px;
+    left: 100px;
+    position:absolute;
+}
+.img-9{
+    margin-top: 100px;
+    margin-left: 500px;
+    position: absolute;
+}
+.bg-4{
+    height: 900px;
+    width: 1200px;
+    background-color: #b1c5ff;
+    margin-left: 5%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.blue{
+    color: blue;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.div-botm{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin-left: 10%;
+    gap: 80px;
+}
+.lang{
+    border:none;
+    width: 100px;
+}
+.country{
+    border: 2px solid black;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+.footer-1{
+    margin-top: 40px;
+    display:flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 100px;
+    font-size: 13px;
+    font-weight: bold;
+}
+h2{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 100px;
+}

@@ -4,15 +4,20 @@
     color: #ebebeb;
     font-family: sans-serif;
 }
-body{
+/* body{
     background-color: black;
 }
 h4{
+    padding-left: 10px;
     color: #ebebeb;
     font-family: sans-serif;
     font-size: 18px;
 }
+.para{
+    width: 70%;
+}
 p{
+
     color: #ebebeb;
     font-family: sans-serif;
     font-size: 17px;
@@ -30,17 +35,16 @@ h3{
 }
 .div-1{
     float: left;
-    margin-left: 12%;
-    width:38%;
+    margin-left: 10%;
+    width:40%;
 }
 .img-1{
     float: left;
     padding-top: 30px;
 }
 .bg-color{
-    float: left;
     background-image: linear-gradient(rgba(238, 81, 8), black );
-    height:200px;
+    height:100%;
     width: 100px;
     display: grid;
     justify-content: center;
@@ -48,7 +52,7 @@ h3{
 .div-2{
     margin-left: 50px;
     width:38%;
-    float: left;
+   display: flex;
 }
 .img-2{
     float: left;
@@ -73,4 +77,36 @@ h3{
 .img-4{
     float: left;
     padding-top: 30px;
+} */
+body{
+    background-color: black;
+    color: white;
+}
+
+.cont1{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.div-1{
+    width: 45%;
+    display: flex;
+}
+.bg-color{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 81, 0),black ,black);
+ 
+}
+.para{
+    padding-left: 20px;
+    width: 80%;
+}
+.img-1{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+h3{
+    color: rgb(255, 81, 0);
 }

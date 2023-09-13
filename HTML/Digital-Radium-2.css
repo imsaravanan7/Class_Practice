@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2018/07/iPhone-X-dots-alex-muench.png);
+}
+.cont-1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 7.5%;
+}
+h1{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    border:1px solid white;
+    padding: 10px;
+}
+.cont-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.para{
+    width: 30%;
+    padding-left: 3%;
+    padding-top: 30px;
+    padding-right: 5%;
+    line-height: 20px;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    width: 20%;
+    line-height: 45px;
+}
+.bg{
+    background-image: linear-gradient(rgb(255, 72, 0),black);
+    height: 200px;
+    width:8px;
+    margin-top: 55px;
+    border-radius: 10px;
+}
+h4{
+    font-size: 20px;
+}
+.heart{
+    color: rgb(255, 72, 0);
+    padding-top: 95px;
+    padding-right: 0px;
+}
