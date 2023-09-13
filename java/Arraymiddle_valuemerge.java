@@ -9,7 +9,7 @@ public class Arraymiddle_valuemerge{
         int j=0;
         for(int i=0;i<l;i++){
             if(i<num.length){
-                 num3[i]=num[i];
+                num3[i]=num[i];
             }
             else{
             num3[i]=num2[j];
