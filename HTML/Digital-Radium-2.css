@@ -1,58 +1,116 @@
+
 body{
     background-color: black;
     color: white;
-    font-family: sans-serif;
-    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2018/07/iPhone-X-dots-alex-muench.png);
+    background-image: linear-gradient(maroon,black);
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
 }
 .cont-1{
     margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    margin-left: 7.5%;
-}
-h1{
-    margin-top: 40px;
-    font-size: 40px;
-    text-align: center;
-}
-img{
-    border:1px solid white;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 20px;
+    grid-auto-rows: 200px;
+    width: 80%;
+    margin-left: 10%;
 }
 .cont-2{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    width: 80%;
+    margin-left: 10%;
 }
-.para{
-    width: 30%;
-    padding-left: 3%;
-    padding-top: 30px;
-    padding-right: 5%;
-    line-height: 20px;
+img{
+    border: 2px solid white;
 }
 .align{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
     font-size: 50px;
-    font-weight: bold;
-    width: 20%;
-    line-height: 45px;
+    width: 5%;
 }
-.bg{
-    background-image: linear-gradient(rgb(255, 72, 0),black);
-    height: 200px;
-    width:8px;
-    margin-top: 55px;
-    border-radius: 10px;
+.para{
+    line-height: 25px;
 }
-h4{
-    font-size: 20px;
+p{
+    margin-top: 20px;
 }
-.heart{
-    color: rgb(255, 72, 0);
-    padding-top: 95px;
-    padding-right: 0px;
+@media screen and (max-width: 1000px){
+    body{
+        background-image: linear-gradient(rgb(15, 146, 65),rgb(30, 30, 129));
+    }
+    .cont-1{
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 20px;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .cont-1 img{
+        width: 100%;
+        width: 80%;
+        border: 2px solid gold;
+    }
+    .cont-2{
+        width: 60%;
+        margin-left: 20%;
+        grid-template-columns:repeat(2,1fr);
+    }
+    .cont-2 .align{
+        margin-left: 40%;
+        display: grid;
+        grid-column: span 2;
+    }
+}
+@media screen and (max-width:850px) {
+    body{
+        background-image: linear-gradient(rgb(112, 47, 47),rgb(241, 238, 32));
+    }
+    .cont-1{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cont-2{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 50px;
+        color: black;
+    }
+    .cont-2 .align{
+        display: grid;
+        grid-column: span 1;
+    }   
+}
+@media screen and (max-width:600px) {
+    body{
+        background-image: linear-gradient(rgb(194, 14, 155),rgb(22, 112, 139));
+    }
+    .cont-1{
+    grid-template-columns: repeat(1,1fr);
+    width: 35%;
+    margin-left: 33%;
+    }
+    .cont-1 img{
+        border: 2px solid rgb(85, 243, 85);
+    }
+    .cont-2{
+        grid-row-gap: 50px;
+        color: white;
+    }
+    .cont-2 .align{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:460px) {
+    .cont-1{
+        margin-left: 25%;
+    }
+    .cont-1 img{
+        height: 150px;
+        width: 150px;
+    }
+    .cont-2 .align{
+        font-size: 30px;
+    }
 }

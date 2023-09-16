@@ -4,85 +4,49 @@
     color: #ebebeb;
     font-family: sans-serif;
 }
-/* body{
-    background-color: black;
-}
-h4{
-    padding-left: 10px;
-    color: #ebebeb;
-    font-family: sans-serif;
-    font-size: 18px;
-}
-.para{
-    width: 70%;
-}
-p{
-
-    color: #ebebeb;
-    font-family: sans-serif;
-    font-size: 17px;
-    line-height: 25px;
-}
-h3{
-    color: #EA5200;
-    font-size: 18px;
-}
-.h3-3 {
-    margin-left: 100px;
-}
-.h3-4 {
-    margin-left: 100px;
-}
-.div-1{
-    float: left;
-    margin-left: 10%;
-    width:40%;
-}
-.img-1{
-    float: left;
-    padding-top: 30px;
-}
-.bg-color{
-    background-image: linear-gradient(rgba(238, 81, 8), black );
-    height:100%;
-    width: 100px;
-    display: grid;
-    justify-content: center;
-}
-.div-2{
-    margin-left: 50px;
-    width:38%;
-   display: flex;
-}
-.img-2{
-    float: left;
-    padding-top: 30px;
-}
-.div-3{
-    margin-top: 2%;
-    margin-left: 12%;
-    width:38%;
-    float: left;
-}
-.img-3{
-    float: left;
-    padding-top: 30px;
-}
-.div-4{
-    margin-left: 50px;
-    margin-top: 2%;
-    width:38%;
-    float: left;
-}
-.img-4{
-    float: left;
-    padding-top: 30px;
-} */
 body{
     background-color: black;
     color: white;
 }
-
+.icon{
+    background-color: white;
+    display: none;
+  
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+}
+.icon img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+}
+.top-1{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.top-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-right: 5%;
+}
+.contact{
+    background-color: orangered;
+    width: 150px;
+    height: 25px;
+    border: 2px solid orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
 .cont1{
     width: 80%;
     margin-left: 10%;
@@ -94,13 +58,14 @@ body{
     display: flex;
 }
 .bg-color{
+    margin-top: 20px;
     width: 20%;
     height: 100%;
     background-image: linear-gradient(rgb(255, 81, 0),black ,black);
  
 }
 .para{
-    padding-left: 20px;
+    padding-left: 30px;
     width: 80%;
 }
 .img-1{
@@ -109,4 +74,18 @@ body{
 }
 h3{
     color: rgb(255, 81, 0);
+}
+@media screen and (max-width:1200px) {
+    .top-2{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1000px) {
+       .top-2{
+        display: none;
+       }
+       .icon{
+        display: block;
+       }
+       
 }
