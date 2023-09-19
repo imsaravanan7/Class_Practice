@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    border: 0;
+    font-weight: bold;
+}
+.top-left{
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.top-right{
+    position: fixed;
+    margin-top: 20px;
+    right:20px;
+}
+.btm-left{
+    position: fixed;
+    margin-top: 400px;
+    width: 20%;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.btm-left-2{
+    position: fixed;
+    margin-top: 600px;
+    width: 25%;
+    margin-left: 20px;
+}
+.btm-right{
+    position: fixed;
+    margin-top: 500px;
+    right:20px;
+}
+img{
+    width: 400px;
+    height: 500px;
+    margin-left: 35%;
+}
+.div-1{
+    background-color: rgb(247, 64, 155);
+    height: 650px;
+    padding-top: 10px;
+}
+.div-2{
+    background-color:white;
+    height: 660px;
+    padding-top: 10px;
+}
+.div-3{
+    background-color:
+    #00c1b5;
+    height: 650px;
+    padding-top: 10px;
+}
+.div-4{
+    background-color:#ff651a;
+    height: 660px;
+    padding-top: 10px;
+}
+.div-5{
+    background-color:#ffbe00;
+    height: 650px;
+    padding-top: 10px;
+}
+.div-6{
+    background-color:
+    #1d3fbb;
+    height: 660px;
+    padding-top: 10px;
+}
+.div-7{
+    background-color:
+    #e30512;
+    height: 650px;
+    padding-top: 10px;
+}
+@media screen and (max-width:1000px) {
+   .btm-right{
+    display: none;
+   }
+   .top-right{
+    display: none;
+   }
+   .btm-left{
+    width: 30%;
+   }
+   img{
+    width: 400px;
+    margin-left: 30%;
+   }
+}
+@media screen and (max-width:800px) {
+    .top-left{
+        font-size: 20px;
+    }
+    .btm-left{
+        display: none;
+    }
+    .btm-left-2{
+        display: none;
+    }
+    img{
+        width: 400px;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:700px) {
+    img{
+        width: 400px;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:600px) {
+    img{
+        width: 400px;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    img{
+        width: 300px;
+        height: 500px;
+        margin-left: 10%;
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width:450px) {
+    img{
+        width: 200px;
+        height: 350px;
+        margin-left: 30%;
+        margin-top: 40%;
+    }
+}
+@media screen and (max-width:350px) {
+    img{
+        width: 130px;
+        height: 200px;
+        margin-left: 20%;
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width:200px) {
+    img{
+        width: 90px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 40%;
+    }
+}
