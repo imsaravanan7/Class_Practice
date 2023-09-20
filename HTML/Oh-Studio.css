@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    width: 20%;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: grey;
+    background: transparent;
+    position: fixed;
+    top: 50px;
+    left: 40%;
+}
+#home{
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.div-1{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
