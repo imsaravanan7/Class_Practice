@@ -1,0 +1,30 @@
+/* .navbar{
+    border-radius:30px;
+    margin-top: 50px;
+} */
+.btn{
+    border-radius: 30px;
+}
+/* .btn-outline-primary{
+    border-radius: 30px;
+} */
+.table th{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+.alert{
+    text-align: center;
+}
+.spinner-border{
+    margin-left: 48%;
+}
+.pagination{
+    margin-left: 40%;
+    width: 20%;
+}
+.rounded{
+    margin-left: 12%;
+    margin-top: 2%;
+}
