@@ -1,0 +1,61 @@
+.container{
+    top: 10px;
+    left: 8%;
+    position: fixed;
+    background-color: white;
+}
+span{
+    margin-left: 20px;
+}
+.btn{
+    margin-left: 5px;
+}
+.plans{
+    font-size: 30px;
+}
+.center{
+    display:flex ;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+.month{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+hr{
+    color: rgb(46, 150, 46);
+}
+.currency{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cards{
+    margin-top: 50px;
+    width: 25%;
+    border: 2px solid rgb(221, 218, 218);
+    padding: 20px;
+}
+.option{
+    display: flex;
+    justify-content: space-evenly;
+}
+.collab{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.h4{
+    margin-top: 50px;
+}
+.header{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    font-weight: bold;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
